@@ -62,8 +62,9 @@ class TicTacToe:
                     self.game_over = True
                 else:
                     self.current_player = 'O' if self.current_player == 'X' else 'X'
-
+#main 
 if __name__ == "__main__":
     game = TicTacToe()
     game.play_game()
+
 
